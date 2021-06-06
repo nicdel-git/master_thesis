@@ -3,9 +3,9 @@
 This git repository groups my master thesis (in pdf and latex form), the presentation slides of the oral, and the code used for the implementation.
 
 The thesis is divided into three parts/implementations:
-1. The first is a Gaussian process that takes as input a stock price $S$ and a time $t$, and outputs the posterior distribution of the associated call price. It then derives this posterior distribution to obtain the Greeks of that call price (namely Delta and Theta).
-2. The second is a functional Gaussian process that takes as input a payoff function, and optionally also a time-to-maturity $T$, and outputs the price of the European option described by that payoff function. The payoff function can be chosen freely.
-3. The third is a multitask Gaussian process that takes as input a strike price $K$ and a time-to-maturity $T$, and outputs both the American call option price and the European call option price associated to those inputs.
+1. The first is a Gaussian process that takes as input a stock price S and a time t, and outputs the posterior distribution of the associated call price. It then derives this posterior distribution to obtain the Greeks of that call price (namely Delta and Theta).
+2. The second is a functional Gaussian process that takes as input a payoff function, and optionally also a time-to-maturity T, and outputs the price of the European option described by that payoff function. The payoff function can be chosen freely.
+3. The third is a multitask Gaussian process that takes as input a strike price K and a time-to-maturity T, and outputs both the American call option price and the European call option price associated to those inputs.
 
 The code is also divided into three jupyter notebook files:
 1. The code for the first part is in the "greeks_GP" file.
